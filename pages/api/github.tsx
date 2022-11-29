@@ -1,5 +1,5 @@
 export default async (req, res) => {
-    const url = "https://api.github.com/users/uvacoder/repos?per_page=100"
+    const url = "https://api.github.com/users/uvacoder/repos?per_page=50"
     const response = await fetch(url)
     const json = await response.json()
 
